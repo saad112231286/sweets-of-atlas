@@ -1,0 +1,113 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #f4a261; /* Light gold */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  background-color: #2a9d8f; /* Turquoise */
+  padding: 60px 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-btn {
+  background-color: #f4a261; /* Gold */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Product Section */
+.products {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.product-item {
+  text-align: center;
+  width: 200px;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
+.add-to-cart {
+  background-color: #f4a261; /* Gold */
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #264653; /* Dark Teal */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .socials a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
